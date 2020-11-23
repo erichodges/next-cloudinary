@@ -9,7 +9,7 @@ const ImageComponent = ({
   height = 1200,
   loading = 'lazy'
 }) => {
-  const hostUrl = `https://res.cloudinary.com/dn3baky3u/image/upload/w_auto,q_auto,f_auto,dpr_auto/v1580246844/gatsby-cloudinary`;
+  const hostUrl = `https://res.cloudinary.com/dn3baky3u/image/upload/w_${width},h_${height},f_auto,dpr_auto/v1580246844/gatsby-cloudinary`;
   // https://res.cloudinary.com/dn3baky3u/image/upload/v1580246844/gatsby-cloudinary/evora-gt-side.jpg
   // https://res.cloudinary.com/dn3baky3u/image/upload/v1580246844/gatsby-cloudinary/evora-gt-side
   return (
