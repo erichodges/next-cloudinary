@@ -18,9 +18,11 @@ const TestImage = () => {
         },
         transformation: {
           // whatever
+          quality: 'auto',
+          fetch: 'auto'
         }
       };
-      return <img key={img} src={generateImageUrl(config)} />;
+      return <img key={img} width='300px' src={generateImageUrl(config)} />;
     });
   };
   // console.log(process.env.CLOUDINARY_CLOUD_NAME);
